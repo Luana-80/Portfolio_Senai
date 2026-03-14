@@ -87,7 +87,7 @@ Este projeto foi desenvolvido com o objetivo de:
 
 1. Clone este repositório:
 
-git clone https://github.com/seuusuario/seurepositorio.git
+git clone https://luana-80.github.io/Portfolio_Senai/
 
 2. Abra o arquivo index.html em seu navegador.
 
