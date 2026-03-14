@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio de Luana Lucera, estudante de Desenvolvimento de Software, com projetos, habilidades e informações de contato.">
+    <title>Portfólio | Luana Lucera</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Luana do Amaral Lucera</h1>
+        <p>Estudante de Desenvolvimento de Software</p>
+
+        <nav aria-label="Menu principal">
+            <a href="#sobre">Sobre</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+
+            <p>
+                Sou professora de Artes por formação e atuei por vários anos na área da educação, experiência que me
+                proporcionou muito aprendizado e desenvolvimento pessoal. Atualmente, estou vivendo um momento de
+                transição de carreira e direcionando meus estudos para a área da tecnologia, um campo que tem despertado
+                grande interesse e entusiasmo em mim.
+            </p>
+
+            <p>
+                Nos últimos tempos, venho me dedicando ao desenvolvimento de habilidades em programação front-end e back-end, com foco na criação de soluções digitais, desenvolvimento web e construção de aplicações. Durante essa jornada de aprendizagem, tenho buscado aprofundar meus conhecimentos em linguagens de programação, lógica computacional e no desenvolvimento de interfaces e sistemas.
+            </p>
+
+            <p>
+                Ainda estou dando meus primeiros passos nesse universo da tecnologia, mas estou muito motivada com as possibilidades que ele oferece e com muita vontade de aprender, evoluir e crescer profissionalmente.
+            </p>
+
+            <p>
+                Este portfólio reúne alguns projetos e experiências desenvolvidos ao longo do meu processo de aprendizagem na área de tecnologia.
+            </p>
+
+            <button onclick="mostrarMensagem()">Clique para conhecer meu objetivo</button>
+            <p id="mensagem"></p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <h3>Técnicas</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git e GitHub</li>
+                <li>Python (em processo)</li>
+            </ul>
+
+            <h3>Comportamentais</h3>
+            <ul>
+                <li>Organização</li>
+                <li>Responsabilidade</li>
+                <li>Comprometimento</li>
+                <li>Trabalho em equipe</li>
+                <li>Aprendizado contínuo</li>
+                <li>Resolução de problemas</li>
+            </ul>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+
+            <div class="projeto">
+                <h3>Site da Exportadora VIRTVSBR</h3>
+
+                <img src="img/virtvsbr.png" alt="Preview do site da Exportadora VIRTVSBR">
+
+                <p>
+                    Desenvolvimento de landing page institucional utilizando o construtor de sites da Locaweb, com
+                    adaptação de template, organização de conteúdo e configuração das seções de apresentação e contato
+                    da empresa.
+                </p>
+
+                <p><strong>Ferramentas utilizadas:</strong> Construtor de Sites Locaweb</p>
+
+                <p>
+                    <strong>Demonstração:</strong>
+                    <a href="https://virtvsbr.com/" target="_blank" rel="noopener noreferrer">Acessar o site</a>
+                </p>
+            </div>
+
+            <div class="projeto">
+                <h3>Site da Advocacia Nelson Lucera Filho</h3>
+
+                <img src="img/advocacia NLF.png" alt="Preview do site da Advocacia Nelson Lucera Filho">
+
+                <p>
+                    Site institucional desenvolvido para o escritório de advocacia Nelson Lucera Filho, com o objetivo
+                    de apresentar o escritório, suas áreas de atuação e facilitar o contato com clientes. O projeto foi
+                    elaborado utilizando o construtor de sites da Locaweb, com adaptação de template, organização da
+                    estrutura da página e personalização do conteúdo.
+                </p>
+
+                <p><strong>Ferramentas utilizadas:</strong> Construtor de Sites Locaweb</p>
+
+                <p>
+                    <strong>Demonstração:</strong>
+                    <a href="https://lucerafilho.com/" target="_blank" rel="noopener noreferrer">Acessar o site</a>
+                </p>
+            </div>
+
+            <div class="projeto">
+                <h3>Aplicativo mobile – Vida e obra de Camille Claudel</h3>
+
+                <img src="img/app_Camille_Claudel.png" alt="Tela inicial do aplicativo sobre Camille Claudel">
+
+                <p>
+                    Aplicativo mobile desenvolvido utilizando a plataforma Fábrica de Aplicativos, com o objetivo de
+                    apresentar a vida e as obras da escultora francesa Camille Claudel. O aplicativo reunia informações
+                    biográficas, imagens de esculturas e conteúdos educativos voltados à divulgação da história da arte.
+                </p>
+
+                <p><strong>Ferramenta utilizada:</strong> Fábrica de Aplicativos</p>
+
+                <p><strong>Status:</strong> Projeto desenvolvido e publicado anteriormente na plataforma, atualmente
+                    indisponível.</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+
+            <p>
+                Se você deseja entrar em contato comigo para fazermos uma parceria ou apenas para conversar sobre
+                tecnologia, sinta-se à vontade para me enviar uma mensagem através do formulário abaixo:
+            </p>
+
+            <form action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Luana Lucera. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById("mensagem").innerText =
+                "Meu objetivo é desenvolver habilidades sólidas em programação e construir projetos que solucionem problemas reais de forma eficiente e responsiva.";
+        }
+    </script>
+
+</body>
+
+</html>
